@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    height: 100%;
+    overflow: hidden;
+    padding-top: 44px;
+  }
+  .navbar-custom { 
+    background-color: #2d3ead; 
+} 
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: white; 
+} 
+.herotext{
+   
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.herotext h1{
+    font-size:80px;
+    
+}
+.navl{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white; 
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .logot{
+      color: gold;
+  }
+  .til{
+    color: gold;
+}
+.jumbotron {
+    background-image: url(/construction/assets/images/con1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 2000px;
+   }
+   .black-overlay{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.jumbotron > .inner {
+    position: relative;
+    z-index: 2;
+}
+@media only screen and (max-width: 375px) {
+.jumbotron{
+    height: 816px;
+}
+.herotext h1{
+    font-size:42px;
+    text-align: center;
+    
+}
+
+
+
+
+}
