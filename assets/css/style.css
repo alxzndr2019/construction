@@ -25,7 +25,7 @@ body {
 .navl{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: white; 
+    color: white !important; 
 }
 .navbar-nav > li{
     padding-left:30px;
