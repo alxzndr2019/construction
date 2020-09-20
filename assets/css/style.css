@@ -42,7 +42,7 @@ body {
     color: gold;
 }
 .jumbotron {
-    background-image: url(/construction/assets/images/con1.jpg);
+    background-image: url(/construction/assets/images/con2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,6 +89,7 @@ body {
 /* height: 1000px; */
 
 }
+
 .carousel .item {
     height: 200px;
   }
@@ -134,6 +135,9 @@ body {
     font-size: 24px;
 }
 @media only screen and (max-width: 375px) {
+    #cat{
+        font-size: 10px;
+    }
     .vis{
         color: #46474a;
         font-size: 22px;
