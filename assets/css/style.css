@@ -70,6 +70,10 @@ body {
     font-size:28px
  
 }
+.logo{
+    height: 50px;
+    /* padding: 2px 10px; */
+}
 .section-2{
     font-family: 'Oswald', sans-serif;
     /* height: 1000px; */
@@ -98,7 +102,42 @@ body {
 .w{
     font-size:20px ;
 }
+.footer-custom { 
+    background-color: #2d3ead; 
+    font-family: 'Oswald', sans-serif;
+} 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: white;
+  } 
+  .vis{
+      color: #46474a;
+      font-size: 29px;
+  }
+  .word{
+    font-size: 24px;
+}
 @media only screen and (max-width: 375px) {
+    .vis{
+        color: #46474a;
+        font-size: 22px;
+    }
 .jumbotron{
     height: 816px;
 }
@@ -107,9 +146,11 @@ body {
     
 }
 #ahead{
-    font-size: 30px;
+    font-size: 32px;
 }
-
+.word{
+    font-size: 22px;
+}
 
 }
 
