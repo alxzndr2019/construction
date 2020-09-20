@@ -65,11 +65,36 @@ body {
 .space{
     height: 50px;
 }
-.section-2{
+.inspo-quote h1{
     font-family: 'Oswald', sans-serif;
-    height: 1200px;
+    font-size:28px
  
 }
+.section-2{
+    font-family: 'Oswald', sans-serif;
+    /* height: 1000px; */
+ 
+}
+.section-3{
+    font-family: 'Oswald', sans-serif;
+    /* height: 980px; */
+ 
+}
+.section-4{
+    font-family: 'Oswald', sans-serif;
+/* height: 1000px; */
+
+}
+.carousel .item {
+    height: 200px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 200px;
+  }
 .w{
     font-size:20px ;
 }
@@ -84,6 +109,7 @@ body {
 #ahead{
     font-size: 30px;
 }
+
 
 }
 
